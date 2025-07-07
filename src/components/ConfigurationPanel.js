@@ -83,7 +83,7 @@ const ConfigurationPanel = ({ onConfigUpdate }) => {
             <select
               value={config.network}
               onChange={(e) => handleConfigChange('network', e.target.value)}
-              className="w-full p-3 bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-md focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white"
+              className="w-full p-3 bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-30 rounded-md focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white"
             >
               <option value="preprod" className="bg-gray-800 text-white">Pre-production Testnet (Recommended)</option>
               <option value="preview" className="bg-gray-800 text-white">Preview Testnet</option>
@@ -123,7 +123,7 @@ const ConfigurationPanel = ({ onConfigUpdate }) => {
           </div>
 
           {/* Quick Setup Guide */}
-          <div className="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-md p-3">
+          <div className="bg-white bg-opacity-0 backdrop-blur-sm border border-white border-opacity-20 rounded-md p-3">
             <h4 className="font-medium text-white mb-2">Quick Setup Steps:</h4>
             <ol className="text-xs text-blue-100 list-decimal list-inside space-y-1">
               <li>Go to <a href="https://blockfrost.io" target="_blank" rel="noopener noreferrer" className="underline text-white hover:text-blue-200">blockfrost.io</a> and sign up.</li>
