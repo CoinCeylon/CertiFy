@@ -96,7 +96,7 @@ const SimpleVerifyCertificate = ({ onStatusUpdate, walletAddress, config, wallet
             type="file"
             accept=".pdf"
             onChange={handleFileSelect}
-            className="w-full p-3 bg-white bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-md focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-blue-100 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white file:text-primary hover:file:bg-blue-50"
+            className="w-full p-3 bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-30 rounded-md focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-blue-100 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-white file:text-primary hover:file:bg-blue-50"
           />
           {selectedFile && (
             <div className="mt-2 text-sm text-green-200 bg-green-500 bg-opacity-20 p-2 rounded backdrop-blur-sm">
@@ -153,12 +153,12 @@ const SimpleVerifyCertificate = ({ onStatusUpdate, walletAddress, config, wallet
 
         {/* Status Messages */}
         {!isConnected && (
-          <div className="text-sm text-red-200 bg-red-500 bg-opacity-20 p-3 rounded backdrop-blur-sm border border-red-200 border-opacity-30">
+          <div className="text-sm text-red-200 bg-red-500 bg-opacity-10 p-3 rounded backdrop-blur-sm border border-red-200 border-opacity-30">
             ❌ Wallet not connected
           </div>
         )}
         {!isConfigured && (
-          <div className="text-sm text-orange-200 bg-orange-500 bg-opacity-20 p-3 rounded backdrop-blur-sm border border-orange-200 border-opacity-30">
+          <div className="text-sm text-orange-200 bg-orange-500 bg-opacity-10 p-3 rounded backdrop-blur-sm border border-orange-200 border-opacity-30">
             ⚠️ Blockfrost API key not configured
           </div>
         )}

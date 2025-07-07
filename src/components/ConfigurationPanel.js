@@ -126,11 +126,11 @@ const ConfigurationPanel = ({ onConfigUpdate }) => {
           <div className="bg-white bg-opacity-10 backdrop-blur-sm border border-white border-opacity-20 rounded-md p-3">
             <h4 className="font-medium text-white mb-2">Quick Setup Steps:</h4>
             <ol className="text-xs text-blue-100 list-decimal list-inside space-y-1">
-              <li>Go to <a href="https://blockfrost.io" target="_blank" rel="noopener noreferrer" className="underline text-white hover:text-blue-200">blockfrost.io</a> and sign up</li>
-              <li>Create a new project and select "<strong>{networkInfo.name}</strong>"</li>
-              <li>Copy your API key and paste it above</li>
-              <li>Make sure your wallet is on the same network</li>
-              <li>Get test ADA from a <a href="https://docs.cardano.org/cardano-testnet/tools/faucet/" target="_blank" rel="noopener noreferrer" className="underline text-white hover:text-blue-200">testnet faucet</a></li>
+              <li>Go to <a href="https://blockfrost.io" target="_blank" rel="noopener noreferrer" className="underline text-white hover:text-blue-200">blockfrost.io</a> and sign up.</li>
+              <li>Create a new project and select "<strong>{networkInfo.name}</strong>".</li>
+              <li>Copy your API key and paste it above.</li>
+              <li>Make sure your wallet is on the same network.</li>
+              <li>Get test ADA from a <a href="https://docs.cardano.org/cardano-testnet/tools/faucet/" target="_blank" rel="noopener noreferrer" className="underline text-white hover:text-blue-200">testnet faucet</a>.</li>
             </ol>
           </div>
 

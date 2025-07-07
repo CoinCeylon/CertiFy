@@ -201,11 +201,11 @@ const IssueCertificatePage = ({ onBack, onHome }) => {
               <div className="p-4 bg-white bg-opacity-5 rounded-lg backdrop-blur-sm">
                 <h3 className="text-lg font-semibold text-white mb-3">Step-by-Step Process:</h3>
                 <ol className="list-decimal list-inside space-y-2 text-blue-100">
-                  <li>Configure your Blockfrost API key in the settings above</li>
-                  <li>Upload your PDF certificate file using the form above</li>
-                  <li>Connect your Cardano wallet using the wallet button</li>
-                  <li>Click "Issue" to store the file hash on blockchain</li>
-                  <li>Transaction creates permanent proof of authenticity</li>
+                  <li>Configure your Blockfrost API key in the settings above.</li>
+                  <li>Connect your Cardano wallet using the wallet button.</li>
+                  <li>Upload your PDF certificate file using the form above.</li>
+                  <li>Click "Issue" to store the file hash on blockchain.</li>
+                  <li>Transaction creates permanent proof of authenticity.</li>
                 </ol>
               </div>
 
