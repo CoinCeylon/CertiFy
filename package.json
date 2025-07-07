@@ -1,0 +1,76 @@
+{
+  "name": "unihack-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@meshsdk/core": "^1.9.0-beta.61",
+    "@meshsdk/core-csl": "^1.9.0-beta.61",
+    "@meshsdk/react": "^1.9.0-beta.61",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.1.0",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.10.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "crypto-js": "^4.2.0",
+    "https-browserify": "^1.0.0",
+    "lucid-cardano": "^0.10.11",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.5.6",
+    "process": "^0.11.10",
+    "react": "^19.1.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.4.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "env": {
+      "es2020": true,
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "globals": {
+      "BigInt": "readonly"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
