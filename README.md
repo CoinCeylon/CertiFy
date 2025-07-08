@@ -51,9 +51,9 @@ npm start
 ## How It Works
 
 ### Issuing Certificates
-1. Upload a PDF certificate
-2. System calculates SHA-256 hash
-3. Connect Cardano wallet
+1. Connect Cardano wallet
+2. Upload a PDF certificate
+3. System calculates SHA-256 hash
 4. Transaction stores hash in blockchain metadata
 5. Certificate hash is now permanently recorded
 
